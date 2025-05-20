@@ -1,0 +1,28 @@
+/* Reset and normalize */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  text-decoration: none;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* Root settings */
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+/* Body base */
+body {
+  box-sizing: border-box;
+  min-height: 100dvh;
+  min-width: 100vw;
+  font-family: "Inter", sans-serif;
+  font-size: 1.6rem; /* = 16px */
+  line-height: 1.5;
+  color: #111;
+  background-color: #353535;
+}
